@@ -1,6 +1,6 @@
 NAGIOS SERVER 4.0.8
 -------------------
-sudo su
+`sudo su`
 
 apt-get update
 
