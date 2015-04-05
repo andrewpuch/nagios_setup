@@ -25,6 +25,7 @@ make install-commandmode
 make install-init
 make install-config
 /usr/bin/install -c -m 644 sample-config/httpd.conf /etc/apache2/sites-available/nagios.conf
+cd ../
 curl -L -O http://nagios-plugins.org/download/nagios-plugins-2.0.3.tar.gz
 tar xvf nagios-plugins-*.tar.gz
 cd nagios-plugins-2.0.3
